@@ -6,7 +6,7 @@ This allows you to continuously change the color of certain Kasa lights (see com
 In order to use this, we first have to run the FastAPI server. 
 This can be done using command prompt and navigating to the folder, running the command: uvicorn bulb:app --reload. 
 
-Then, we open the webpage labeled as main.html. Here, we see a form where we can input some data such as our lights ip address, which crypto we want to check (currently have the top 30 listed), and how often we want it to update the light (1 or 24 hours). Once we hit submit, our light will change once API data is received!
+Then, we open the webpage labeled as main.html. Here, we see a form where we can input some data such as our lights ip address, which crypto we want to check (currently have the top 30 listed), and how often we want it to update the light (1 or 24 hours). Once we hit submit, our light will change once API data is received! This will continuously update the light every 1 or 24 hours for as long as the server is still running. The user can stop the program by simply closing the command prompt running the FastAPI server.
 
 
 https://github.com/python-kasa/python-kasa
