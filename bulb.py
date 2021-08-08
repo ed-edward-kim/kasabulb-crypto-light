@@ -169,7 +169,7 @@ def get_coininfo(req_symbol, req_time):
     }
     headers = {
         'Accepts': 'application/json',
-        'X-CMC_PRO_API_KEY': '',
+        'X-CMC_PRO_API_KEY': 'Place API key here!',
     }
 
     try:
