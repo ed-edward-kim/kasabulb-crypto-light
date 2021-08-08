@@ -10,33 +10,34 @@ Then, we open the webpage labeled as main.html. Here, we see a form where we can
 
 
 https://github.com/python-kasa/python-kasa
+
 Plugs:
-    HS100
-    HS103
-    HS105
-    HS107
-    HS110
+    HS100,
+    HS103,
+    HS105,
+    HS107,
+    HS110,
     
 Power Strips:
-    HS300
-    KP303
+    HS300,
+    KP303,
     KP400
 
 Wall switches:
-    HS200
-    HS210
-    HS220
+    HS200,
+    HS210,
+    HS220,
 
 Bulbs:
-    LB100
-    LB110
-    LB120
-    LB130
-    LB230
-    KL60
-    KL110
-    KL120
-    KL125
+    LB100,
+    LB110,
+    LB120,
+    LB130,
+    LB230,
+    KL60,
+    KL110,
+    KL120,
+    KL125,
     KL130
 
 Light strips:
