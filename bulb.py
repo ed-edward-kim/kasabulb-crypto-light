@@ -136,8 +136,8 @@ class Crypto(BaseModel): #adding class for pydantic model. Need request body for
     time_option: str 
     bulb_ip: str
 
-@app.post("/test")
-async def getinfo(symbol:str = Form(...), bulb_ip:str = Form(...), time_option:str = Form(...)): #default constructor as doge for currency, with a time val of 0.1?
+@app.post("/activateBulb")
+async def activateBulb(symbol:str = Form(...), bulb_ip:str = Form(...), time_option:str = Form(...)): #default constructor as doge for currency, with a time val of 0.1?
     #TEST
     print("symbol = ", symbol)
     print("time_option = ", time_option)
